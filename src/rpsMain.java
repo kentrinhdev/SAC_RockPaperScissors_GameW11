@@ -52,6 +52,12 @@ public class rpsMain
 
         ToString tString = new ToString( 1, 11 );
         System.out.println( tString );
+        
+        moreToString s1 = new moreToString(101,"Professor","Einstein");
+        moreToString s2 = new moreToString(102,"Teacher's Assistant","TA");
+        
+        System.out.println(s1);//compiler writes here s1.toString()
+        System.out.println(s2);//compiler writes here s2.toString()
 
     
     // Play the game as long as there is a tie.
